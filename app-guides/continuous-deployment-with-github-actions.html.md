@@ -33,7 +33,7 @@ We'll speed-run through the steps needed to make the go-example app automaticall
     on:
       push:
         branches:
-          - master
+          - main
     jobs:
       deploy:
         name: Deploy app
